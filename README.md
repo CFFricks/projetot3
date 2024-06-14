@@ -1,3 +1,50 @@
+# Prova
+
+## Alterações feitas
+
+### Instalar dependencias:
+
+Primeiro rodei o comando `npm i` para instalar todas as dependencias:
+
+<img src="./assets/images/npm-i.png">
+
+Depois rodei o `npm test` para testar a aplicação:
+
+<img src="./assets/images/run-test-1.png">
+
+
+### UserController.js
+
+Arrumei o UserController.js de
+
+` await Users.novo({ ...req.body, id: "sas", profile_photo: url });`
+
+para 
+
+`await Users.create({ ...req.body, id: "sas", profile_photo: url });`
+
+### user.test.js
+
+- E adicionei o email como body no arquivo user.test.js:
+<img src="./assets/images/fix-email.png">
+
+- Alem disso adicionei a seguinte linha:
+`const uploadStub = mockAsync(sails.helpers, "upload", "url");`
+
+
+ - Rodei novamente:
+<img src="./assets/images/add-line.png">
+
+
+## ACT
+- Corrigi o erro no ci.yml:
+<img src="./assets/images/yaml.png">
+
+- E rodei no terminal:
+<img src="./assets/images/act.png">
+
+
+
 # petbook-aula
 
 a [Sails v1](https://sailsjs.com) application
