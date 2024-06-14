@@ -18,3 +18,5 @@ updates:
     # Check for updates once a week
     schedule:
       interval: "weekly"
+
+#retirado de: https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates#example-dependabotyml-file
