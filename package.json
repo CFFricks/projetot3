@@ -9,7 +9,7 @@
     "@sailshq/lodash": "^3.10.3",
     "@sailshq/socket.io-redis": "^6.1.2",
     "assert": "^2.1.0",
-    "cloudinary": "^2.2.0",
+    "cloudinary": "^2.4.0",
     "grunt": "1.0.4",
     "mocha": "^10.4.0",
     "sails": "^1.5.9",
